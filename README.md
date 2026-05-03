@@ -113,9 +113,25 @@ For more detailed information on SVG structure and elements, you can refer to th
 
 <details>
     <summary>Your SVG Code</summary>
-    <code>
-    ......
-    </code>
+     
+   ```xml
+    <?xml version="1.0" encoding="UTF-8"?>
+     <svg	xmlns="http://www.w3.org/2000/svg"
+	version="1.1"
+	width="800" height="600"
+	viewBox="0 0 800 600">
+
+     <line	x1="50" y1="50" x2="300" y2="50"
+	stroke="black" stroke-width="4" />
+
+     <circle	cx="200" cy="200" r="80"
+	fill="blue" stroke="black" stroke-width="3" />
+
+     <rect	x="400" y="150" width="200" height="120"
+	fill="green" stroke="black" stroke-width="3" />
+
+</svg>
+```
 </details>
 
 ### Task 2: Markdown
@@ -126,19 +142,36 @@ It is an easy and lightweight syntax, to instruct a display software to render t
 
 <details>
     <summary>How does prepending hashes (<code>#</code>) affect the display?</summary>
-    ......
+   # werden für Überschriften auf verschiedenen Ebenen genutzt. Je mehr # gesetzte werden, desto kleiner die Überschrift. 
 </details>
 <details>
     <summary>How do you mark italic or bold font?</summary>
-    <code>
-    ......
-    </code>
+    
+    Kursiv und Fett werden mit * oder _ erstellt. 
+    *Text*
+    _Beispiel_
+    **Beispiel**
+    __Beispiel__
+   
 </details>
 <details>
     <summary>Which different ways are there to generate listings and tables?</summary>
-    <code>
-    ......
-    </code>
+   
+| A       | B       | 
+|---------|---------|
+| X       | Y       |
+| X       | Y       |
+| X       | Y       |
+
+1. Eins
+2. Zwei
+3. Drei
+
+- Punkt 1
+- Punkt 2
+- Punkt 3
+- Punkt 4
+   
 </details>
 
 ### Task 3: LaTeX
