@@ -6,7 +6,7 @@ As ancient as this may seem, the foundation of effective software engineering is
 We will generate different artifacts using four different _description-languages_. 
 After this exercise, you should be able to decide for yourselves, when to use which and have a fundamental understanding of how they are supposed to work.
 
-**Important:** Start a stopwatch when you begin and work uninterruptedly for 90 minutes. Once time is up, stop immediately and document the point where you had to pause.
+**Important:** Start a stopwatch when you begin and work uninterruptedly for 90 minutes. Once time is up, stop immediately and document the point where you had to pause. 
 
 ---
 
