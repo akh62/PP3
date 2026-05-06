@@ -293,20 +293,37 @@ If you are running in WSL, make sure to install the `w3m` browser before by exec
 **Answer the following questions:**
 <details>
   <summary>What happens if you exchange the <code>&lt;p&gt;&lt;/p&gt;</code> for <code>&lt;h1&gt;&lt;/h1&gt;</code>?</summary>
-  ...
+  Wenn man das ändert, dann wird der Text groß und dick dargstellt, wie eine Überschrift.
 </details>
 
 <details>
     <summary>How can you generate a listing of items?</summary>
     <code>
-    ......
+		in dem man das in <body></body> eingibt:
+    <ul>
+
+<li>Beispiell</li>
+
+<li>Beispiel2</li>
+
+</ul>
     </code>
 </details>
 
 <details>
     <summary>How can you create a table in this document?</summary>
     <code>
-    ......
+    mit dem Befehl <table>:
+		<table>
+  <tr>
+    <th>A</th>
+    <th>B</th>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>D</td>
+  </tr>
+</table>
     </code>
 </details>
 
